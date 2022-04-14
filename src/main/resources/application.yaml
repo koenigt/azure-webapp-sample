@@ -1,0 +1,21 @@
+## Configuring info endpoint with automatic maven properties expansion
+info:
+  app:
+    name: Sample WebApp for Azure AppService
+    description: @project.description@
+    version: @project.version@
+  java:
+    version: @java.version@
+
+## server.servlet.context-path: /api
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  info:
+    env:
+      enabled: true

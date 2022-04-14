@@ -1,0 +1,8 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.saveActions.organizeImports": true,
+    "spring.initializr.defaultJavaVersion": "11",
+    "spring.initializr.defaultLanguage": "Java",
+    "spring.initializr.defaultPackaging": "JAR",
+    "spring.initializr.defaultGroupId": "group.msg.playground"
+}
